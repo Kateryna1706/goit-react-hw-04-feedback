@@ -30,7 +30,6 @@ export const Statistics = ({
 };
 
 Statistics.propTypes = {
-  message: PropTypes.string.isRequired,
   good: PropTypes.number.isRequired,
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
